@@ -16,8 +16,8 @@ php bin/magento c:f
 5. Create three pagebuiler attributes named as delivery,fit,share from magento admin. Assign them to current attribute set and add text values.
 
 6. Create on static block with identifier "detail_static_block" for the footer section on the detail page. And use the below content for the block using the edit button so you can see the html tags :- 
-
-`<div class="detailStaticBlock">
+```html
+<div class="detailStaticBlock">
   <p>a note from the editor</p>
 <div class="detailsStaticcontent">
   <p>The Forte Lurex Linen Viscose Jacket in Mother of Pearl features lunar lavishness by night and by day: a blazer in a linen blend shot with lurex for a shimmering surface that shines like a star in the sky. </p>
@@ -25,8 +25,8 @@ php bin/magento c:f
 <div class="authorName">
 <p>By MINNA SHIM, Fashion Editor</p>
 </div>
-</div>`
-
+</div>
+```
 7. Disable stock information visibility for frontend from Admin from the following path :- Store->configuration->catalog->inventory->stock information->Display Products Availability in Stock on Storefront.
 
 8. Run the following commands :- 
