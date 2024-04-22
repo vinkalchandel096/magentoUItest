@@ -15,7 +15,7 @@ php bin/magento c:f
 
 5. Create three pagebuiler attributes named as delivery,fit,share from magento admin. Assign them to current attribute set and add text values.
 
-6. Create on static block with identifier "detail_static_block" for the footer section on the detail page. And use the below content for the block using the edit button so you can see the html tags :- 
+6. Create on static block with identifier "detail_static_block" for the footer section on the detail page. And use the below content :- 
 ```html
 <div class="detailStaticBlock">
   <p>a note from the editor</p>
